@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>黑马程序员Java视频教程从入门到精通（完整版）超千万下载量</title>
+		<meta name="keywords" content="Java视频教程,Java免费教程,java自学教程,Java教程下载" />
+		<meta name="description" content="传智播客和黑马程序员视频库出品的Java视频教程，包含全套初级、中级、高级Java视频教程，Java视频教程完整版全部免费下载，持续更新，让你轻松学会Java开发。" />
+		<link type="image/x-icon" rel="shortcut icon" href="http://www.itheima.com/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="http://yun.itheima.com/Root/css/reset.css"/>
+		<link rel="stylesheet" href="http://yun.itheima.com/Root/css/com.css" />
+		<link rel="stylesheet" href="http://yun.itheima.com/Root/css/index.css" />
+		<script src="http://yun.itheima.com/Root/js/jquery.min.js"></script>
+		<script src="http://yun.itheima.com/Root/js/jquery.SuperSlide.2.1.1.js"></script>
+		<script src="http://yun.itheima.com/Root/js/index.js"></script>
+		<script>
+			var yunset;
+			function viewload(){}
+		</script>
+
+		<link rel="stylesheet" type="text/css" href="http://yun.itheima.com/Root/map2021/css/animate.min.css"/>
+		<link rel="stylesheet" type="text/css" href="http://yun.itheima.com/Root/map2021/css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="http://yun.itheima.com/Root/css/com.css"/>
+		<link rel="stylesheet" type="text/css" href="http://yun.itheima.com/Root/css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="http://yun.itheima.com/Root/map2021/css/style.css"/>
+		<script type="text/Javascript" src="http://yun.itheima.com/Root/map2021/js/jquery-1.10.2.min.js"></script>
+		<script src="http://yun.itheima.com/Root/js/index.js"></script>
+		<script type="text/javascript">
+		
+		</script>
+	<meta name="realhash" content="1cba3d01b4221a3ebf0ac0ae02e8bb39_8f55157d99c97e6aea1b13c3bbfd402b" /></head>
+	<body class="roadmap">
+		<div class="header">
+	<div class="box_In clearfix">
+		<a href="http://yun.itheima.com/" class="fl"><img src="http://yun.itheima.com/Root/images/logo.jpg"/></a>
+		<div class="fr clearfix">
+		<form action="/search" method="post">
+			<div class="serul_p">
+				<p>视频教程</p>	
+				<ul class="serul">
+					<li data="course"><a href="javascript:;">视频教程</a></li>
+					<li data="open"><a href="javascript:;">公开课</a></li>
+					<li data="gongju"><a href="javascript:;">学习工具</a></li>
+					<li data="jishu"><a href="javascript:;">技术文章</a></li>					
+				</ul>
+			</div>
+			<input type="text" class="txt" name="so" value="" onMouseOver="this.focus();"  placeholder="请搜索你想要的视频资源"  />
+			<input type="hidden" name="type" id="gftype" value="course" /><input type="submit" class="sub" value=''/>
+		<input type="hidden" name="realhash" value="1cba3d01b4221a3ebf0ac0ae02e8bb39_8f55157d99c97e6aea1b13c3bbfd402b" /></form>
+		</div>
+	</div>
+</div>
+<!--公用导航-->
+<div class="nav">
+	<div class="box_In clearfix">				
+		<ul class="fl clear">
+			<li><a href="http://www.itheima.com?spk" target="_blank">官网首页</a></li>
+			<li><a href="/" >视频库首页</a></li>
+			<li><a href="/map" class="nav_on">免费视频教程</a></li>
+			<li><a href="/open" >直播公开课</a></li>
+			<li><a href="/jishu" >技术文章</a></li>
+			<li><a href="/gongju" >学习工具</a></li>
+							<li><a href="https://www.funit.cn/?hmspk" rel="nofollow" target="_blank" >求职刷题</a></li>		</ul>
+		<ol class="fr clear show" id="login_no">
+			<li class="user_dl">
+				<a href="javascript:;"><img class="img" src="http://yun.itheima.com/Root/images/nav_img1.jpg"/><p>登录</p></a>
+			</li>
+			<li class="li2 user_zc">
+				<a href="javascript:;"><img class="img" src="http://yun.itheima.com/Root/images/nav_img2.jpg"/><p>注册</p></a>
+			</li>
+		</ol>
+		<div class="mask_dl">
+			<div class="login_box">
+				<img class="dl_close" src="http://yun.itheima.com/Root/images/dl_close.png"/>
+				<iframe id="user_dl" src="http://passport.itheima.com/flogin?appid=4487aa412ec8" style="width:430px;height:446px;border:0" ></iframe>
+			</div>					
+		</div>
+		<div class="mask_zc">
+			<div class="login_box">
+				<img class="dl_close" src="http://yun.itheima.com/Root/images/dl_close.png"/>
+				<iframe id="user_zc" src="http://passport.itheima.com/fregister?appid=4487aa412ec8" style="width:430px;height:446px;border:0" ></iframe>
+			</div>					
+		</div>
+		<!--用户信息-->
+		<div class="userhd" id="login_yes">
+			<div class="userlist">
+				<img src="http://passport.itheima.com/Attached/avatar/no.jpg" width="40" height="40" id="myhead" />
+				<a href="/member/sms.html" class="afont agd auser" target="_blank" id="myname" >个人中心</a>
+				<ul>
+					<li><a href="/member/sms.html" class="afont agd">我的消息</a></li>
+					<li><a href="/member/open.html" class="afont agd">我的课程</a></li>
+					<li><a href="/member/down.html" class="afont agd">我的下载</a></li>
+					<li><a href="/member/fav.html" class="afont agd">我的收藏</a></li>
+					<li><a href="javascript:;" class="afont agd" id="login_out">安全退出</a></li>					
+				</ul>					
+			</div>
+		</div>
+		<div style="display:none" id="login_frame"></div>
+		<script>
+			function yun(){
+				$.get("/Login/isenter", function(data){
+					eval(data);
+				});
+			}
+			yun();
+		</script>
+	</div>
+</div>
+
+<style>
+.error_404{width:100%; overflow: hidden;}
+.error_404 .inner{width:1200px; margin:0 auto; text-align: center;}
+.error_404 .inner .hd{margin-top:40px; display: inline-block;}
+.error_404 .inner p{font-size: 18px; line-height: 38px; margin-bottom: 40px;}
+.error_404 .inner p a{display:inline-block; line-height: 38px; padding:0 30px; background: #D72502; color: #fff; border-radius: 5px; margin-left: 5px;}
+
+</style>
+<div class="error_404">
+	<div class="inner">
+		<img src="http://www.itheima.com/images/404hd.jpg" class="hd" />
+		<img src="http://www.itheima.com/images/404txt.jpg"/>		
+		<p>系统将在 <span id="time">5</span> 秒钟后自动跳转至网站首页，如果未能跳转，请点击<a href="/">返回首页</a></p>
+	</div>
+</div>
+<script type="text/javascript">
+	var domain = document.domain;
+    delayURL();    
+    function delayURL() { 
+        var delay = document.getElementById("time").innerHTML;
+ var t = setTimeout("delayURL()", 1000);
+        if (delay > 0) {
+            delay--;
+            document.getElementById("time").innerHTML = delay;
+        } else {
+     clearTimeout(t); 
+            window.location.href = "/";
+        }        
+    } 
+</script>
+
+
+
+		<div class="footer_box">
+			<div class="footer">
+	<div class="inner">
+		<div class="ft_l ft_l1">
+			<div class="ft_l_txt">
+				<h3>帮助中心</h3>
+				<ul>
+					<li><a rel="nofollow" href="/article/39.html" target="_blank">新手指南</a></li><li><a rel="nofollow" href="/article/40.html" target="_blank">常见问题</a></li><li><a rel="nofollow" href="/article/36.html" target="_blank">名额预定</a></li><li><a rel="nofollow" href="/article/42.html" target="_blank">意见反馈</a></li>				</ul>
+			</div>
+			<div class="ft_l_txt">
+				<h3>交流合作</h3>
+				<ul>
+					<li><a rel="nofollow" href="http://bbs.itheima.com?yun" target="_blank">技术交流</a></li><li><a rel="nofollow" href="/article/45.html" target="_blank">联系我们</a></li><li><a rel="nofollow" href="/article/47.html" target="_blank">版权声明</a></li>				</ul>
+			</div>
+			<div class="ft_l_txt">
+				<h3>站内地图</h3>
+				<ul>
+					<li ><a href="http://yun.itheima.com/open" target="_blank">公开课</a></li><li ><a href="http://yun.itheima.com/map" target="_blank">免费视频教程</a></li><li ><a href="http://1024.itcast.cn" target="_blank">1024程序员节</a></li>	
+				</ul>
+			</div>
+			<div class="ft_l_txt">
+				<h3>学员培训</h3>
+				<ul>
+					<li><a href="http://java.itcast.cn" target="_blank">JavaEE培训</a></li>
+					<li><a href="http://www.itcast.cn/web/" target="_blank">HTMl&amp;JS+前端</a></li>
+					<li><a href="http://www.itcast.cn/subject/pythonzly/" target="_blank">Python+大数据开发</a></li>
+					<li><a href="https://www.funit.cn" target="_blank">面试刷题</a></li>
+					<li><a href="http://ai.itcast.cn" target="_blank">人工智能</a></li>
+					<li><a href="http://www.itcast.cn/subject/uizly/index.shtml" target="_blank">UI设计</a></li>
+				</ul>
+			</div>
+			<div class="ft_l_txt">
+				<h3>&nbsp;</h3>
+				<ul>
+					<li><a href="http://www.itcast.cn/m/" target="_blank">新媒体+短视频直播运营</a></li>
+					<li><a href="http://www.itcast.cn/subject/pmzly/" target="_blank">产品经理</a></li>
+					<li><a href="http://www.itcast.cn/subject/linuxzly/index.html" target="_blank">Linux云计算+运维开发</a></li>
+					<li><a href="http://www.itcast.cn/test/" target="_blank">软件测试</a></li>
+					<li><a href="http://www.itcast.cn/subject/robotzly/index.html" target="_blank">智能机器人软件开发</a></li>
+					<li><a href="http://www.itcast.cn/subject/uidszly/index.html" target="_blank">电商视觉运营设计</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="ft_l ft_l2">
+			<div class="it_wx">
+				<p>黑马程序员视频库</p>
+				<img src="http://yun.itheima.com/Root/images/wxheima.jpg" width="120" height="120" /> </div>
+			<div class="boniu_wx">
+				<p>黑马程序员QQ</p>
+				<img src="http://yun.itheima.com/Root/images/wxopen.jpg" width="120" height="120" /> </div>
+		</div>
+		<div class="ft_l ft_l3">
+			<div class="share">
+				<div class="share_in">
+				<div class="bdsharebuttonbox"><a rel="nofollow" href="#" class="bds_mshare" data-cmd="mshare" title="分享到一键分享"></a><a rel="nofollow" href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a rel="nofollow" href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a></div>
+				<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"32"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+				</script>
+				</div>
+			</div>
+			<p class="pp2" style="margin-top:28px;">播妞QQ：498913868</p>
+			<p class="pp2">视频库指定QQ：2909152659</p>
+			<p class="pp2">官方微博地址：<a rel="nofollow" href="http://weibo.com/itheima" target="_blank">http://weibo.com/itheima</a></p>
+		</div>
+	</div>
+</div>	
+<!--cnzz-->
+<div class="footer_btm">
+	<div class="box_In">
+		<p class="fl">传智教育、黑马程序员免费视频教程、公开课资源下载平台&nbsp;&nbsp;<a href="http://yun.itheima.com"  target="_blank" style="color:#B0BCD0">http://yun.itheima.com</a>&nbsp;&nbsp;<script type="text/javascript" src="https://s4.cnzz.com/z_stat.php?id=1261487506&web_id=1261487506"></script></p>
+		<p class="fr"><a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank" style="color:#B0BCD0">苏ICP备16007882号-1</a></p>
+	</div>				
+</div>
+<iframe id="logincheck" style="border:0;display:none" ></iframe>
+<script>setInterval(function(){ document.getElementById("logincheck").src="http://yun.itheima.com/login/logincheck" }, 600000);</script>
+		</div>
+		<div class="pc_box">
+	<div class="nav_right">
+		<ul>
+			<li class="nav1"><a href="javascript:;"><b></b>全套视频资源<em>一键下载</em><span style="visibility: hidden; right: 0px;"><img src="http://yun.itheima.com/Root/images/zxzypic.jpg" /></span></a></li>
+			<li class="nav2"><a href="javascript:;"><b></b>关注小程序<em>免费学</em><span style="visibility: hidden; right: 0px;"><img src="http://yun.itheima.com/Root/images/zxxcxpic.jpg" /></span></a></li>
+			<li class="nav3"><a href="javascript:;" onclick="qimoChatClick();"><b></b>在线咨询</a></li>
+			<li class="nav4"><a href="tencent://AddContact/?fromId=45&amp;fromSubId=1&amp;subcmd=all&amp;uin=1481135711" target="_blank"><b></b>意见建议</a></li>
+			<li class="nav5" id="back" style="visibility: visible;"><a href="javascript:;"><b></b>顶部</a></li>
+		</ul>
+	</div>
+</div>
+<script type='text/javascript' src='https://webchat.7moor.com/javascripts/7moorInit.js?accessId=994d4130-1df9-11e9-b7ec-7766c2691ec6&autoShow=false&language=ZHCN' async='async'></script>
+<script>
+	locurl = location.search;
+	if(locurl){
+		if (locurl.indexOf("?") != -1) {
+			var one = locurl.lastIndexOf("?");
+			locurl = locurl.substring(one, locurl.length);
+			var locurlsrc = locurl.substr(1);
+		}
+		var alen = $("a").length;
+		for(i=0;i<alen;i++){
+			var aurl = $("a").eq(i).attr("href");
+			if(aurl == "javascript:;" || aurl == "javascript:void(0);" || aurl == "javascript:void(0)"){
+				$("a").eq(i).attr("href",aurl);
+			}else{
+				if(aurl.indexOf("#") != -1){
+					var two = aurl.lastIndexOf("#");
+					aurlh = aurl.substring(two,aurl.length);
+					aurl = aurl.substring(0,two);
+					if(aurl.indexOf("?") != -1){
+						$("a").eq(i).attr("href",aurl+"&"+locurlsrc+aurlh);
+					}else{
+						$("a").eq(i).attr("href",aurl+"?"+locurlsrc+aurlh);
+					}
+				}else{
+					if(aurl.indexOf("?") != -1){
+						$("a").eq(i).attr("href",aurl+"&"+locurlsrc);
+					}else{
+						$("a").eq(i).attr("href",aurl+"?"+locurlsrc);
+					}
+				}
+			}
+		}
+	}
+</script>
+	</body>
+	<script src="http://yun.itheima.com/Root/map2021/js/jquery.SuperSlide.2.1.1.js"></script>
+	<script>
+	
+	jQuery(".mapban").slide({mainCell:".bd ul",effect:"fold",autoPlay:true,interTime : 4000,delayTime:700});
+
+$(".roadmap .modular_cen .mainbot_p span").click(function(){
+	$(this).addClass("cur").siblings().removeClass("cur");
+	var mainbotind = $(this).index();
+	$(this).parents(".main_bot").find(".mainbot_list").eq(mainbotind).show().siblings().hide();
+})
+$(".roadmap .modular_cen ul .main_mask").click(function(){
+	$(this).hide();
+	$(this).parents(".main_left").find("video").trigger('play');
+	$(this).parents(".main_left").find("video").addClass("video_on");
+});
+$(".roadmap .modular_cen ol li").click(function(){
+	$(this).addClass("cur").siblings().removeClass("cur");
+	var maincenind = $(this).index();
+	$(this).parents(".modular_cen").find("ul li").eq(maincenind).show().siblings().hide();
+	$(".roadmap .modular_cen .video_on").trigger('pause');
+	$(".roadmap .modular_cen .video_on").removeClass('video_on');
+});
+$(".roadmap .modular_cen .lrbtn a.next").click(function(){
+	var that = $(this);
+	var mainollen = $(this).parents(".modular_cen").find("ol li").length;
+	var mainolind = $(this).parents(".modular_cen").find("ol li.cur").index()+1;
+	mainolind = (mainolind>=mainollen)?0:mainolind;
+	modularFn(mainollen,mainolind,that);
+});
+$(".roadmap .modular_cen .lrbtn a.prev").click(function(){
+	var that = $(this);
+	var mainollen = $(this).parents(".modular_cen").find("ol li").length;
+	var mainolind = $(this).parents(".modular_cen").find("ol li.cur").index()-1;
+	mainolind = (mainolind<0)?(mainollen-1):mainolind;
+	modularFn(mainollen,mainolind,that);
+});
+function modularFn(mainollen,mainolind,that){
+	that.parents(".modular_cen").find("ol li").eq(mainolind).addClass("cur").siblings().removeClass("cur");
+	that.parents(".modular_cen").find("ul li").eq(mainolind).show().siblings().hide();
+	$(".roadmap .modular_cen .video_on").trigger('pause');
+	$(".roadmap .modular_cen .video_on").removeClass('video_on');
+};
+
+
+
+// 改版
+var litxts = "";
+$(".modular_right .modular_list ul li .lititle .event_title").hover(function(){
+	var istrue = $(this).parents("li").is(".cur");
+	if(istrue){return false;}
+	//litxts = $(this).text();
+	//$(this).text("点击查看课程");
+	$(this).parents("p").addClass("active");
+},function(){
+	var istrue = $(this).parents("p").is(".active");
+	if(!istrue){return false;}
+	//$(this).text(litxts);
+	$(this).parents("p").removeClass("active");
+});
+
+var otherbtmtop = $(".other_btm").offset().top;
+$(".modular_right .modular_list ul li .lititle .event_title").click(function(){
+	var istrue = $(this).parents("li").is(".cur");
+	$(".modular_main .modular_list ul .title_two").css("marginBottom",10);
+	if(istrue){
+		$(this).parents("li").removeClass("cur");
+		$(this).parents("ul").removeClass("cur");
+	}else{
+		$(this).parents("li").addClass("cur").siblings().removeClass("cur");
+		$(this).parents("li").siblings().find(".title_two").removeClass("cur");
+		var libot = $(this).parents("li").find(".libotmain").height();
+		$(this).parents("li").find(".libot").height(libot+40);
+
+		$(this).parents("ul").siblings().find("li").removeClass("cur");
+		$(this).parents("ul").siblings().find("li .title_two").removeClass("cur");
+
+		$(this).parents(".modular_main").siblings().find(".modular_list li").removeClass("cur");
+		$(this).parents(".modular_main").siblings().find(".modular_list ul").removeClass("cur");
+		
+		otherbtmtop = $(".other_btm").offset().top;
+		var ultop = $(this).parents("ul").offset().top;
+		var thistop = $(this).offset().top;
+		var centop = (thistop-ultop)+60;
+		$(this).parents("li").find(".libotmain").css("top",centop);
+	}
+});
+
+//二级分类事件
+var litxttwo = "";
+$(".modular_right .modular_list ul li .lititle .event_titletwo").hover(function(){
+	var istrue = $(this).parents("li").is(".cur");
+	if(istrue){return false;}
+	$(this).addClass("active");
+},function(){
+	var istrue = $(this).is(".active");
+	if(!istrue){return false;}
+	$(this).removeClass("active");
+});
+
+//二级分类事件
+$(".modular_right .modular_list ul li .lititle .event_titletwo").click(function(){
+	
+	var istrue = $(this).is(".cur");
+	var lititletwoCur = $(this).is(".lititletwoCur");
+	$(".modular_main .modular_list ul .title_two").css("marginBottom",10);
+	if(istrue){
+		$(this).parents("li").removeClass("cur");
+		$(this).parents("ul").removeClass("cur");
+		$(this).removeClass("cur");
+	}else{
+		var obj = $(this).attr("data");
+		$(this).parents("li").addClass("cur").siblings().removeClass("cur").find(".title_two").removeClass("cur");
+		$(this).parents("ul").siblings().find("li").removeClass("cur").find("li .title_two").removeClass("cur");
+		$(this).addClass("cur").siblings().removeClass("cur");
+
+		$(this).parents(".modular_main").siblings().find(".modular_list ul").removeClass("cur").find("li").removeClass("cur").find(".title_two").removeClass("cur");
+		$(".roadmap .modular_right .modular_list ul li.cur .libot").removeClass("objcur");
+		$(".roadmap .modular_right .modular_list ul li.cur ."+obj).addClass("objcur");
+		$(this).parents("li").addClass("cur").siblings().removeClass("cur");
+		var libot = $(".roadmap .modular_right .modular_list ul li.cur ."+obj).find(".libotmain").height();
+		console.log(libot)
+		if(lititletwoCur){
+			$(this).css("marginBottom",libot+40);
+		}else{
+			$(".roadmap .modular_right .modular_list ul li.cur ."+obj).height(libot+40);
+		}
+		otherbtmtop = $(".other_btm").offset().top;
+		var ultop = $(this).parents("ul").offset().top;
+		var thistop = $(this).offset().top;
+		var centop = (thistop-ultop)+54;
+		$(".roadmap .modular_right .modular_list ul li.cur ."+obj).find(".libotmain").css("top",centop);
+	}
+	
+});
+
+$(".modular_right .modular_list .putItAway").click(function(){
+	$(this).parents("li").removeClass("cur").find(".lititle .event_titletwo").removeClass("cur");
+	$(this).parents("ul").removeClass("cur").find(".title_two").css("marginBottom",10);
+	otherbtmtop = $(".other_btm").offset().top;
+});
+
+
+var con1top = $(".modular_left .con1").offset().top;
+var conrighttop = $(".modular_right .modular_main").offset().top;
+var con1height = $(".modular_left .con1").height();
+$(window).scroll(function(){
+	var w_top=$(window).scrollTop();
+	if(w_top<(otherbtmtop-320) && w_top>(con1top+con1height)){
+		$(".modular_left .con2").show();
+	}else{
+		$(".modular_left .con2").hide();
+	}
+	if(w_top<(otherbtmtop-150) && w_top>(conrighttop-23)){
+		$(".modular_right .conright").addClass("cur");
+	}else{
+		$(".modular_right .conright").removeClass("cur");
+	}
+});
+
+var nowwidth = document.documentElement.clientWidth;
+if(nowwidth<1200){
+	$(".modular_left .con2").css({"left":0,"marginLeft":0});
+}
+
+$(".modular_left .con2 .con2p3").click(function(){
+	$("html,body").animate({"scrollTop":0},500);
+});
+
+$(".modular_right .conright .conrightlist li").click(function(){
+	var con2ind = $(this).index();
+	var con3top = $(".modular_right .spjclist").eq(con2ind).offset().top;
+	$("html,body").animate({
+		"scrollTop":(con3top-91)
+	},500);
+});
+$(".modular_right .box_con3 a").click(function(){
+	var con3ind = $(this).index();
+	$(this).addClass("a_on").siblings().removeClass("a_on");
+	$(this).parents(".spjclist").find(".modular_listmain ul").eq(con3ind).show().siblings().hide();
+});
+
+//判断知识点文字长度
+//var lititleDiv = $(".modular_right .modular_list ul li");
+//var lititlenum = lititleDiv.length;
+//for(var i=0;i<lititlenum;i++){
+//	var lititlelen = lititleDiv.eq(i).find(".lititle span").text().length;
+//	var lititlename = (lititlelen>19)?"lithree":((lititlelen>9)?"litwo":"");
+//	lititleDiv.eq(i).addClass(lititlename);
+	
+//}
+	
+	</script>
+</html>
